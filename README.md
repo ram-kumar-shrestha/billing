@@ -1,4 +1,4 @@
-# Task Manager Web App With MERN(MongoDB, Express, React Js, Node Js)
+# Billing Software Web App With MERN(MongoDB, Express, React Js, Node Js)
 
 This app is a basic billing software web app where you can print the bill for your customers. A user can add other users and products. The invoice that is printed will remain in history. A user can also edit profile, products and s/he can delete product or history.
 

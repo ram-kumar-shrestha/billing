@@ -21,40 +21,40 @@ Run react app
 
 ## Login Page
 
-![Login Page]('screenshots/login.png')
+![Login Page](screenshots/login.png)
 
 ## Dashboard Page
 
-![Dashboard Page]('screenshots/dashboard.png')
+![Dashboard Page](screenshots/dashboard.png)
 
 ## Add Product Page
 
-![Add Product Page]('screenshots/addProduct.png')
+![Add Product Page](screenshots/addProduct.png)
 
 ## View All Products Page
 
-![All Products Page]('screenshots/allProducts.png')
+![All Products Page](screenshots/allProducts.png)
 
 ## Add Client Page
 
-![Add Client Page]('screenshots/addClient.png')
+![Add Client Page](screenshots/addClient.png)
 
 ## Select Product Page
 
-![Select Product Page]('screenshots/selectProduct.png')
+![Select Product Page](screenshots/selectProduct.png)
 
 ## Show Invoice Page
 
-![Show Invoice Page]('screenshots/showInvoice.png')
+![Show Invoice Page](screenshots/showInvoice.png)
 
 ## Show History Page
 
-![Show History Page]('screenshots/history.png')
+![Show History Page](screenshots/history.png)
 
 ## Add User Page
 
-![Add User Page]('screenshots/addUser.png')
+![Add User Page](screenshots/addUser.png)
 
 ## View All Users Page
 
-![All Users Page]('screenshots/allUsers.png')
+![All Users Page](screenshots/allUsers.png)

@@ -1,0 +1,71 @@
+/* Stylesheet for left navigation */
+
+.nav-left__container {
+  width: 18rem;
+  background: #3e3939;
+  height: 100vh;
+  box-shadow: 4px 0px 8px #000;
+  position: fixed;
+}
+
+/* Company info and logo styles */
+.company-info {
+  height: 8rem;
+  margin-top: 1rem;
+  display: flex;
+  align-items: center;
+}
+
+.logo {
+  margin: 1rem;
+}
+.logo > img {
+  width: 4rem;
+}
+
+h1,
+h4 {
+  font-weight: normal;
+  color: #fff;
+}
+
+nav {
+  font-size: 1.2rem;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+/* navigation link styles */
+.link {
+  text-decoration: none;
+  display: block;
+  height: 3rem;
+  color: #0d0b0e;
+  background: #64676a;
+  padding: 1rem;
+}
+
+.link:hover,
+.link:active,
+.link:focus {
+  color: #b7bdc2;
+  background: #020202;
+}
+
+/* navigation bottom i.e, profile styles */
+.nav-left__bottom {
+  position: absolute;
+  bottom: 0;
+  width: inherit;
+}
+
+.nav-left__bottom > .link {
+  background: #021718;
+  color: #fff;
+}
+
+.nav-left__bottom > .link:hover,
+.nav-left__bottom > .link:focus,
+.nav-left__bottom > .link:active {
+  color: #021718;
+  background: #fff;
+}

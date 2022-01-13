@@ -1,0 +1,159 @@
+.outlet-container {
+  border: 1px solid #eee;
+  padding: 1rem;
+  background: #fff;
+}
+
+/* Stylesheet for invoice */
+.invoice-container {
+  background: #fff;
+  padding: 1rem;
+}
+
+/* Grid and style for invoice header */
+
+.top-left__info {
+  grid-area: left;
+}
+.invoice-info {
+  grid-area: mid;
+  text-align: center;
+  padding-top: 2rem;
+}
+.right-info {
+  grid-area: right;
+  padding-top: 1rem;
+}
+.client-info {
+  grid-area: bottom;
+}
+
+.invoice-header {
+  display: grid;
+  grid-template-areas:
+    "left mid right"
+    "bottom bottom bottom";
+
+  grid-template-columns: 15rem auto 15rem;
+  grid-template-rows: 5rem 4rem;
+}
+
+/* Customizing the imported component style */
+.top-left__info {
+  padding: 0.8rem 1.5rem;
+}
+
+/* Hiding the logo  */
+.top-left__info .company-info__container .logo {
+  display: none;
+}
+
+h2,
+.top-left__info .company-info__container .info h1,
+.top-left__info .company-info__container .info h4 {
+  font-weight: 700;
+  color: #101010;
+}
+
+.top-left__info .company-info__container .info h1 {
+  font-size: 1.17rem;
+}
+
+/* Different parameters for invoice header */
+.items {
+  color: #101010;
+  font-weight: 500;
+}
+
+.item-value {
+  font-weight: normal;
+}
+
+/* Style for client information  */
+.client-info {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+/* style for print button */
+.btn-print {
+  padding: 1rem;
+  margin: 0.5rem;
+  font-size: 1rem;
+  font-weight: 700;
+  width: 10rem;
+  border: 1px solid #fcfcfc;
+  border-radius: 10px;
+  background: #0dada0;
+  color: #ebebeb;
+  cursor: pointer;
+}
+
+/* stylesheet for invoice table */
+table {
+  border-collapse: collapse;
+  width: 90%;
+  margin: 2rem 0;
+}
+td,
+th {
+  text-align: left;
+}
+th,
+td {
+  padding: 0.5rem;
+  border: 1px solid #ccc;
+}
+
+.total-sum__row {
+  border-bottom: none;
+}
+.total-sum {
+  padding-top: 2rem;
+  text-align: right;
+  padding-right: 10.5rem;
+}
+
+.remarks {
+  margin: 1rem 0;
+}
+
+/* stylesheet for select product */
+.multiple-choice {
+  height: 2.5rem;
+  margin-bottom: 1rem;
+  border: 1px solid #c1c1c1;
+  outline: none;
+}
+
+select:focus {
+  font-size: 1rem;
+  padding-left: 0.8rem;
+  outline: 1px solid #43d9ff;
+}
+
+select option {
+  padding: 1rem;
+  color: #000;
+  font-size: 1rem;
+}
+
+.btn-back,
+.btn-invoice {
+  margin-left: 2rem;
+  text-decoration: none;
+}
+
+.btn-back {
+  background: #8d2626;
+}
+
+/* stylesheet for add more item of show invoice */
+.bnt-links {
+  display: flex;
+  align-items: center;
+}
+.btn-invoice {
+  background: #09a4ca;
+}

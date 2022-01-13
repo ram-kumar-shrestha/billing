@@ -1,0 +1,24 @@
+.nav-left {
+  grid-area: nav-left;
+}
+.header {
+  grid-area: header;
+}
+.main {
+  grid-area: main;
+}
+
+.container {
+  display: grid;
+  grid-template-areas:
+    "nav-left header"
+    "nav-left main";
+  grid-template-columns: 18rem auto;
+  grid-template-rows: 9rem auto;
+}
+
+.outlet-container {
+  border: 1px solid #eee;
+  padding: 1rem;
+  background: #fff;
+}

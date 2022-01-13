@@ -1,0 +1,59 @@
+main {
+  margin: 1rem;
+}
+.invoice-title {
+  color: #000;
+  font-weight: 700;
+  font-size: 2rem;
+  text-align: center;
+}
+
+.title {
+  color: #000;
+  text-align: center;
+  font-weight: 700;
+  font-size: 1.8rem;
+  padding-top: 1rem;
+}
+
+table {
+  margin: 0 auto;
+}
+
+.error {
+  color: #fff;
+  background: rgba(203, 56, 38, 0.8);
+  font-size: 0.8rem;
+  margin-bottom: 0.5rem;
+  padding: 0.5rem;
+}
+
+.spinning-loader {
+  display: inline-block;
+
+  width: 1.4rem;
+  height: 1.4rem;
+
+  border: 5px solid rgba(24, 41, 51, 0.2);
+  border-left-color: rgb(11, 74, 114);
+
+  border-radius: 50%;
+  background: transparent;
+
+  animation-name: rotate-s-loader;
+  animation-iteration-count: infinite;
+  animation-duration: 1s;
+  animation-timing-function: linear;
+  position: relative;
+  top: 0.3rem;
+  left: 1rem;
+}
+
+@keyframes rotate-s-loader {
+  from {
+    transform: rotate(0);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}

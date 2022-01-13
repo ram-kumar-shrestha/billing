@@ -1,0 +1,58 @@
+.login-container {
+  height: 100vh;
+  display: grid;
+  place-items: center;
+  grid-template-areas:
+    "top"
+    "bottom";
+  grid-template-rows: 10rem auto;
+}
+
+.slogan {
+  grid-area: top;
+}
+
+.slogan h1,
+h3 {
+  color: #000;
+}
+
+.slogan h1 {
+  font-size: 2rem;
+  font-weight: 700;
+}
+
+.slogan h3 {
+  font-size: 1.2rem;
+  font-family: "Courier New", Courier, monospace;
+  text-align: center;
+}
+
+.login-container .form-container {
+  grid-area: bottom;
+  margin-top: -5rem;
+  width: 40%;
+  background: linear-gradient(
+    to right,
+    rgba(127, 14, 127, 80%) 5%,
+    rgba(0, 122, 101, 60%) 100%
+  );
+  padding: 3rem 5rem;
+  border-radius: 2rem;
+  color: #fff;
+}
+
+label {
+  font-size: 1.2rem;
+}
+
+input {
+  background: rgba(255, 255, 255, 20%);
+  color: #000;
+}
+
+.btn-login {
+  background: #a813a8;
+  border: 1px solid #009c82;
+  width: 100%;
+}

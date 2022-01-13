@@ -1,0 +1,104 @@
+.products-container {
+  display: flex;
+  width: 100%;
+  justify-content: flex-start;
+}
+
+.products-container .link {
+  background: #038f59;
+  color: #fff;
+  border-radius: 4px;
+  margin-right: 2rem;
+  margin-bottom: 2rem;
+  box-shadow: 4px 4px 5px #282828;
+}
+
+.products-container .link:hover,
+.products-container .link:active,
+.products-container .link:focus {
+  color: #038f59;
+  background: #f8f8f8;
+}
+
+/* stylesheet for add product */
+
+.form-container h1 {
+  color: #000;
+  font-size: 2rem;
+  font-weight: 700;
+  margin-bottom: 1rem;
+}
+
+label {
+  font-weight: 700;
+}
+.form-item {
+  display: grid;
+}
+
+input[type="text"],
+input[type="email"] {
+  height: 2rem;
+  font-size: 1rem;
+  margin-bottom: 1rem;
+  border: 1px solid #c1c1c1;
+  padding: 0 1rem;
+}
+
+input[type="text"]:focus,
+input[type="email"]:focus {
+  outline: 1px solid #43d9ff;
+}
+
+.btn {
+  cursor: pointer;
+  padding: 1rem;
+  width: 20%;
+  font-size: 1rem;
+  font-weight: 700;
+  border: none;
+  border-radius: 5px;
+  color: #fff;
+}
+
+.btn-add {
+  background: #43d9ff;
+}
+
+.btn-clear {
+  margin-left: 2rem;
+  background: #ca2525;
+}
+
+/* stylesheet for view all products
+ */
+
+.delete {
+  background: #ca2525;
+  color: #fff;
+  width: 7rem;
+  text-align: center;
+  margin: 0.5rem 0;
+}
+
+.delete:hover,
+.delete:active,
+.delete:focus {
+  color: #ca2525;
+  background: #ccc;
+}
+
+.edit {
+  background: #08d9e0;
+  color: #fff;
+  width: 7rem;
+  text-align: center;
+  margin: 0.5rem 0;
+}
+
+.edit:hover,
+.edit:active,
+.edit:focus {
+  color: #08d9e0;
+  background: #ccc;
+}
